@@ -8,7 +8,7 @@
 </head>
 <body>
 <center>
-<b>
+<h1>
 <%
     int num = (int)Math.floor(Math.random() * 5);
     String s = "";
@@ -31,7 +31,7 @@
     }
     out.print(s);
 %>
-</b>
+</h1>
 </center>
 </body>
 </html>
